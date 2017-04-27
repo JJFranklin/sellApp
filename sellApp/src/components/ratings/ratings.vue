@@ -1,10 +1,12 @@
 <template>
-  <div class="header">
-  i am header
+  <div class="ratings">
+    评价
   </div>
 </template>
 <script>
-   export default {};
+   export default {
+    name:"ratings"
+   };
 </script>
 <style lang="less">
 

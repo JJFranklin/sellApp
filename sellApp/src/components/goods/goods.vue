@@ -1,6 +1,6 @@
 <template>
-  <div class="header">
-  i am header
+  <div class="goods">
+商品
   </div>
 </template>
 <script>

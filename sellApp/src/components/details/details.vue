@@ -1,10 +1,12 @@
 <template>
-  <div class="header">
-  i am header
+  <div class="details">
+ 详情
   </div>
 </template>
 <script>
-   export default {};
+   export default {
+     name:"detai"
+   };
 </script>
 <style lang="less">
 
