@@ -1,11 +1,11 @@
 <template>
-  <div class="details">
- 详情
+  <div class="more">
+ 详情dsadwef
   </div>
 </template>
 <script>
    export default {
-     name:"detai"
+     name:"more"
    };
 </script>
 <style lang="less">

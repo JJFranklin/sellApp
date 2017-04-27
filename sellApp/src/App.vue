@@ -1,41 +1,22 @@
 <template>
-<div id="app">
+<div calss="mainapp">
   <v-header></v-header>
   <div>
-    <router-link to="/goods"></router-link>
-    <router-link to="/detai"></router-link>
-    <router-link to="/ratings"></router-link>
+    <router-link to="/goods">商品</router-link>
+    <router-link to="/more">详情</router-link>
+    <router-link to="/ratings">评价</router-link>
   </div>
   <router-view></router-view>
   </div>
 </template>
 
 <script>
-import Header from './components/header/header';
-import Nav from './components/nav/nav';
-import 'normalize.css'
-import Vue from 'vue';
-import VueRouter from "vue-router";
-import Goods from "./components/goods/goods";
-import Detai from './components/details/details';
-import Ratings from './components/ratings/ratings';
+import Header from './components/header/header'
 
-Vue.use(VueRouter)
-const routes  = [
-    {path:"/goods",component:Goods},
-    {path:"/details",component:Detai},
-    {path:"/ratings",component:Ratings}
-];
-
-const router = new VueRouter({routes});
 export default {
   name: 'app',
-  router,
   components:{
-    "v-header":Header,
-    Goods,
-    Detai,
-    Ratings
+    "v-header":Header
   }
 }
 </script>
